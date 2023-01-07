@@ -1,11 +1,12 @@
   /* Establece el ancho máximo de la página en 700px */
   body {
-    font-family: "Tw Cen MT",sans-serif;
-    background-color: rgb(234, 238, 245);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(126, 126, 126);
   }
 
   h2 {
     text-align: center;
+
   }
 
   .rounded-image {
@@ -20,34 +21,37 @@
   .anchomax {
     max-width: 900px;
     margin: 0 auto;
+    background-color: beige;
   }
 
   .anchomax img {
     width: 75%;
     display: block;
     margin: 3 auto;
-    
+
+  }
+
+  img {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
   }
 
   .superior {
     background-color: rgb(70, 70, 206);
     color: white;
     text-align: center;
-    text-shadow: 5px;
     text-transform: capitalize;
     text-size-adjust: 16vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
+    
   }
 
   .datos {
-    background-color:rgb(109, 184, 187);
+    background-color: rgb(109, 184, 187);
     color: black;
     text-transform: capitalize;
     padding-top: 3px;
-    
-        
-  }  
+
+
+  }
 
   .dpersonales {
     background-color: rgb(96, 163, 165);
@@ -55,7 +59,7 @@
     padding-bottom: 3px;
     text-align: left;
     padding-left: 5px;
-   
+
   }
 
   .indicador {
@@ -63,16 +67,16 @@
     text-align: left;
     font-weight: bolder;
     font-size: large;
-    
+
   }
-  
+
   .especial {
     background-color: rgb(148, 219, 183);
     color: black;
     text-align: center;
     text-transform: capitalize;
     padding-top: 3px;
-  }  
+  }
 
   .despecial {
     background-color: rgb(120, 179, 149);
@@ -80,29 +84,35 @@
     padding-bottom: 3px;
     font-weight: bolder;
     text-transform: none;
-   
+
   }
-  
-  .formacion {
+
+  .forma {
+    width: 50%;
     background-color: rgb(108, 98, 170);
     color: black;
     text-align: center;
     text-transform: capitalize;
     padding-top: 3px;
+    
+    
   }
-  
+
   .dformacion {
+    width: 50%;
     background-color: rgb(92, 83, 143);
-    color: white;
     padding-top: 3px;
     padding-bottom: 3px;
+    font-size: large;
     text-transform: none;
     text-align: left;
+    color: white;
   }
 
 
-  .conocimientos {
-    background-color:rgb(170, 245, 141);
+  .cono {
+    width: 50%;
+    background-color: rgb(170, 245, 141);
     color: black;
     text-align: center;
     text-transform: capitalize;
@@ -110,6 +120,7 @@
   }
 
   .dconocimientos {
+    width: 50%;
     background-color: rgb(116, 163, 98);
     padding-top: 3px;
     padding-bottom: 3px;
@@ -120,7 +131,7 @@
   }
 
   .experiencia {
-    background-color:rgb(128, 154, 226);
+    background-color: rgb(128, 154, 226);
     color: black;
     text-align: center;
     text-transform: capitalize;
@@ -129,30 +140,39 @@
   }
 
   .columnas {
-    display: flex; /* habilita Flexbox */
-    flex-wrap: wrap; /* permite que los elementos envueltos pasen a la siguiente línea */
-   
-    
+    display: flex;
+    /* habilita Flexbox */
+    flex-wrap: wrap;
+    /* permite que los elementos envueltos pasen a la siguiente línea */
+
+
   }
+
   .columna {
-    flex: 1; /* divide el espacio disponible en partes iguales */
+    flex: 1;
+    /* divide el espacio disponible en partes iguales */
     height: 50px;
     text-align: center;
     margin: auto;
     background-color: rgb(107, 130, 190);
     padding-top: 3px;
     padding-bottom: 3px;
-  }    
-  
+  }
 
   .col-iz {
     width: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-  }  
+
+  }
 
   .col-der {
     width: 55%;
-  } 
+  }
+
+  .bottom-column {
+    width: 100%;
+    /* ocupar todo el ancho disponible */
+    background-color: brown;
+  }
