@@ -1,0 +1,142 @@
+  /* Establece el ancho máximo de la página en 700px */
+  body {
+    font-family: "Tw Cen MT",sans-serif;
+    background-color: rgb(234, 238, 245);
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .rounded-image {
+    border-radius: 50%;
+  }
+
+  .mail {
+    text-decoration: none;
+    text-transform: lowercase;
+  }
+
+  .anchomax {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .anchomax img {
+    width: 55%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .superior {
+    background-color: rgb(70, 70, 206);
+    color: white;
+    text-align: center;
+    text-shadow: 5px;
+    text-transform: capitalize;
+    text-size-adjust: 16vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+  }
+
+  .datos {
+    background-color:rgb(109, 184, 187);
+    color: black;
+    text-transform: capitalize;
+    padding-top: 3px;
+        
+  }  
+
+  .dpersonales {
+    background-color: rgb(96, 163, 165);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-transform: none;
+   
+  }
+
+  .indicador {
+    text-transform: capitalize;
+    text-align: left;
+    font-weight: bolder;
+    font-size: large;
+    
+  }
+  
+  .especial {
+    background-color: rgb(148, 219, 183);
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 3px;
+  }  
+
+  .despecial {
+    background-color: rgb(120, 179, 149);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: bolder;
+    text-transform: none;
+   
+  }
+  
+  .formacion {
+    background-color: rgb(108, 98, 170);
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 3px;
+  }
+  
+  .dformacion {
+    background-color: rgb(92, 83, 143);
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-transform: none;
+    text-align: left;
+  }
+
+
+  .conocimientos {
+    background-color:rgb(170, 245, 141);
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 3px;
+  }
+
+  .dconocimientos {
+    background-color: rgb(116, 163, 98);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: large;
+    text-transform: none;
+    text-align: left;
+    color: white;
+  }
+
+  .experiencia {
+    background-color:rgb(128, 154, 226);
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+
+  .columnas {
+    display: flex; /* habilita Flexbox */
+    flex-wrap: wrap; /* permite que los elementos envueltos pasen a la siguiente línea */
+   
+    
+  }
+  .columna {
+    flex: 1; /* divide el espacio disponible en partes iguales */
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(107, 130, 190);
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }    
