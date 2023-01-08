@@ -1,6 +1,6 @@
   /* Establece el ancho máximo de la página en 700px */
   body {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(126, 126, 126);
   }
 
@@ -49,24 +49,24 @@
     text-align: center;
     text-transform: capitalize;
     text-size-adjust: 16vw;
-    
+
   }
 
   .datos {
     background-color: rgb(54, 95, 145);
     color: rgb(255, 255, 255);
     text-transform: capitalize;
-   text-align: left;
-   font-size: larger;
-   
-   
+    text-align: left;
+    font-size: larger;
+
+
 
 
   }
 
   .dpersonales {
     background-color: rgb(255, 255, 255);
-    color:black;
+    color: black;
     padding-top: 3px;
     padding-bottom: 3px;
     text-align: left;
@@ -92,7 +92,7 @@
 
   .despecial {
     background-color: rgb(255, 255, 255);
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     padding-top: 3px;
     padding-bottom: 3px;
     /* font-weight: bolder; */
@@ -101,14 +101,14 @@
   }
 
   .forma {
-    width: 50%;
     background-color: rgb(178, 161, 199);
     color: rgb(255, 255, 255);
     text-align: center;
     text-transform: capitalize;
     padding-top: 3px;
-    
-    
+    padding-bottom: 3px;
+
+
   }
 
   .dformacion {
@@ -125,17 +125,17 @@
 
 
   .cono {
-    width: 50%;
     background-color: rgb(118, 146, 60);
     color: rgb(255, 255, 255);
     text-align: center;
     text-transform: capitalize;
     padding-top: 3px;
+    padding-bottom: 3px;
   }
 
   .dconocimientos {
     width: 50%;
-    background-color: rgb(214,277,188);
+    background-color: rgb(214, 277, 188);
     padding-top: 3px;
     padding-bottom: 3px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -155,6 +155,7 @@
 
   .columnas {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
   }
 
@@ -187,7 +188,7 @@
     font-size: 15px;
   }
 
- 
+
   @media (max-width: 800px) {
     .anchomax img {
       width: 25%;
@@ -203,11 +204,23 @@
       padding-bottom: 3px;
       padding-top: 3px;
     }
+
     .col-der {
       width: 100%;
     }
 
     .columnas {
       flex-direction: column;
+      width: 100%;
     }
+
+    .dformacion {
+      width: 100%;
+
+    }
+
+    .dconocimientos {
+      width: 100%;
+    }
+
   }
