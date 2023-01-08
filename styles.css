@@ -28,6 +28,8 @@
     background-color: rgb(255, 255, 255);
     padding-left: 3px;
     padding-right: 3px;
+    padding-top: 1px;
+    padding-bottom: 1px;
   }
 
   .anchomax img {
@@ -42,7 +44,7 @@
   }
 
   .superior {
-    background-color: rgb(70, 70, 206);
+    background-color: rgb(70, 129, 189);
     color: white;
     text-align: center;
     text-transform: capitalize;
@@ -183,4 +185,29 @@
     background-color: rgb(252, 231, 211);
     text-align: right;
     font-size: 15px;
+  }
+
+ 
+  @media (max-width: 800px) {
+    .anchomax img {
+      width: 25%;
+      display: block;
+
+    }
+
+    .col-iz {
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-image: url("https://live.staticflickr.com/2833/9032103737_3d326b2cd4_n.jpg");
+      padding-bottom: 3px;
+      padding-top: 3px;
+    }
+    .col-der {
+      width: 100%;
+    }
+
+    .columnas {
+      flex-direction: column;
+    }
   }
