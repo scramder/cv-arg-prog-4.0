@@ -49,6 +49,7 @@
     text-align: center;
     text-transform: capitalize;
     text-size-adjust: 16vw;
+    padding-bottom: 0px;
 
   }
 
@@ -58,9 +59,6 @@
     text-transform: capitalize;
     text-align: left;
     font-size: larger;
-
-
-
 
   }
 
@@ -221,6 +219,11 @@
 
     .dconocimientos {
       width: 100%;
+    }
+
+    .superior {
+      padding-bottom: 0px;
+      font-stretch: expanded;
     }
 
   }
