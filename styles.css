@@ -186,6 +186,20 @@
     font-size: 15px;
   }
 
+  .description {
+  /* estilo del cuadro descriptivo */
+  position: absolute;
+  width: 300px;  /* ancho del cuadro */
+  height: 70px;  /* alto del cuadro */
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+  
+  /* transición para la propiedad opacity */
+  transition: opacity 0.5s ease-in-out;
+
+  }
+  
 
   @media (max-width: 800px) {
     .anchomax img {
