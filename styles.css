@@ -93,7 +93,6 @@
     color: rgb(0, 0, 0);
     padding-top: 3px;
     padding-bottom: 3px;
-    /* font-weight: bolder; */
     text-align: center;
 
   }
@@ -162,7 +161,6 @@
     height: 50px;
     text-align: center;
     margin: auto;
-    /* background-color: rgb(107, 130, 190); */
     padding-top: 3px;
     padding-bottom: 3px;
   }
@@ -186,16 +184,13 @@
     font-size: 15px;
   }
 
-  .description {
-  /* estilo del cuadro descriptivo */
+  #description {
   position: absolute;
-  width: 300px;  /* ancho del cuadro */
-  height: 70px;  /* alto del cuadro */
+  width: 300px;  
+  height: 70px;
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
-  padding: 10px;
-  
-  /* transición para la propiedad opacity */
+  padding: 10px;  
   transition: opacity 0.5s ease-in-out;
 
   }

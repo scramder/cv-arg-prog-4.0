@@ -1,31 +1,13 @@
-// obtener la imagen y el elemento div
-var image = document.querySelector('img');
-var description = document.querySelector('.description');
-
-// seguir al mouse mientras esté sobre la imagen
-image.addEventListener('mousemove', function(event) {
-  // obtener la posición del mouse
-  var x = event.clientX;
-  var y = event.clientY;
-  
-  // mover el cuadro descriptivo
-  description.style.left = x + 'px';
-  description.style.top = y + 'px';
+const img = document.getElementById("img");
+const description = document.getElementById("description");
+img.addEventListener("mouseover", function() {
+  img.addEventListener("mousemove", function(event) {
+    description.style.left = event.pageX + 10 + "px";
+    description.style.top = event.pageY + 10 + "px";
+    description.style.display = "block";
+  });
 });
-
-// mostrar el cuadro descriptivo al hacer hover sobre la imagen
-image.addEventListener('mouseover', function() {
-  // mostrar el cuadro descriptivo y añadir un efecto de fade in
-  description.style.display = 'block';
-  description.style.opacity = 1;
+img.addEventListener("mouseout", function() {
+  description.style.display = "none";
+  img.removeEventListener("mousemove", function() {});
 });
-
-// ocultar el cuadro descriptivo al dejar de hacer hover sobre la imagen
-image.addEventListener('mouseout', function() {
-  // ocultar el cuadro descriptivo y añadir un efecto de fade out
-  description.style.opacity = 0;
-  setTimeout(function() {
-    description.style.display = 'none';
-  }, 2500);
-});
-
