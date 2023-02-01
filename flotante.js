@@ -1,5 +1,6 @@
 const img = document.getElementById("img");
 const description = document.getElementById("description");
+description.style.display = "none";
 img.addEventListener("mouseover", function() {
   img.addEventListener("mousemove", function(event) {
     description.style.left = event.pageX + 10 + "px";
